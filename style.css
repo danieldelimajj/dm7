@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&family=Open+Sans:wght@300;400;500&family=Shadows+Into+Light&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Archivo', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+
+body{
+  background-color: black;
+}
+
+.main {
+  height: 100vh;
+  background-position: center;
+  text-align: center;
+}
+
+
+.person_section{
+  color: rgba(255, 166, 0, 0.705);
+}
+
+.person_img {
+  width: 120px;
+  margin-top: 30px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 166, 0, 0.705);
+}
+
+
+.dm7_title {
+  margin: 15px;
+  font-size: 45px;
+}
+
+.dm7subtitle {
+ padding-bottom: 20px;
+}
+
+.djs_names {
+  color:rgba(255, 166, 0, 0.705);
+  padding-bottom: 5px;
+  font-size: 25px;
+  margin: 10px;
+  
+}
+
+.about_dj {
+  background-color: black;
+  border-radius: 10px;
+  color: orange;
+  padding: 30px;
+  font-size: 30px;
+  text-indent: 20px;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+
+.social-icon {
+  padding: 1px;
+  margin: 5px;
+  margin-bottom: 20px;
+  width: 35px;
+  background-color: rgba(255, 166, 0, 0.74);
+  border-radius: 50%;
+  border: 1px solid rgb(255, 167, 4);
+  
+  
+}
+
+
+footer img {
+  width: 120px;
+  height: 40px;
+  margin-top: 40px;
+  border-radius: 5px;
+  border: 1px solid rgba(112, 73, 1, 0.315);
+  
+}
+
+.footer-paragraph {
+  color:rgba(255, 166, 0, 0.705);
+  padding-bottom: 10px;
+}
