@@ -56,6 +56,10 @@ body{
   margin: 10px;
 }
 
+.icons {
+  display: flex;
+  align-items: center;
+}
 
 .social-icon {
   padding: 1px;
